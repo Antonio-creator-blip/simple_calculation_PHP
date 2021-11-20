@@ -8,9 +8,6 @@
 </head>
 <body>
     <?php
-    //verifica se primo accesso attraverso variabile d'ambiente $_POST
-    //se contiene true significa che il modulo � stato inviato
-    //pertanto non si tratta del primo accesso alla pagina
     if ($_POST)
     {
         switch($_POST["operazioni"]){
